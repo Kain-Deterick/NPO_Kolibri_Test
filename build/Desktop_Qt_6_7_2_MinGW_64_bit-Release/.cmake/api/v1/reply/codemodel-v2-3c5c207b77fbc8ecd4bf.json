@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-04fec3ebebaaa8825d5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Kolibri",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Kolibri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kolibri-Release-ab3ca3ca81bce497477e.json",
+					"name" : "Kolibri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Kolibri_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kolibri_autogen-Release-495a76bc70d33b221814.json",
+					"name" : "Kolibri_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Kolibri_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kolibri_autogen_timestamp_deps-Release-c2f04fa3272718a52368.json",
+					"name" : "Kolibri_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release",
+		"source" : "D:/Work/Stajrovka/Kolibri/Kolibri"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
