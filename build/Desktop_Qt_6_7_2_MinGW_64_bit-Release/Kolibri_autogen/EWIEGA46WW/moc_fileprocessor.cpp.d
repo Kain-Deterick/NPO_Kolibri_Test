@@ -42,6 +42,7 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qdir.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qfile.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qfiledevice.h \
@@ -61,11 +62,13 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qiterable.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qline.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qlogging.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qmalloc.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qmargins.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qmath.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qmetacontainer.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qmetatype.h \
@@ -79,7 +82,9 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qoverload.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qpair.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qpoint.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qrect.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qrefcount.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qscopedpointer.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qscopeguard.h \
@@ -88,6 +93,7 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qshareddata_impl.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qsize.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qstringalgorithms.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qstringbuilder.h \
@@ -130,6 +136,40 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qaction.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qbitmap.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qbrush.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qcolor.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qcursor.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qfont.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qfontinfo.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qicon.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qimage.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qpixmap.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qregion.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qrgb.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qrgba64.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
   D:/Prilogenia/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   D:/Prilogenia/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   D:/Prilogenia/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \

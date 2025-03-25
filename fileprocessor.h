@@ -6,6 +6,7 @@
 #include <QDir>
 #include <QMutex>
 #include <QThread>
+#include <QMessageBox>
 
 
 class FileProcessor : public QObject {

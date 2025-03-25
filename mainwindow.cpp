@@ -27,28 +27,25 @@ void MainWindow::onStartButtonClicked() {
 
     // Проверка ввода
     if (inputMask.isEmpty() || outputPath.isEmpty() || ui->xorValueEdit->text().isEmpty()) {
-        qWarning() << "Пожалуйста, заполните все поля!";
+        QMessageBox::critical(this,
+                              "Ошибка",
+                              "Пожалуйста, заполните все поля!");
+        return;
+    }
+
+    // Получаем список файлов по маске
+    QStringList files = getFilesByMask(inputMask);
+
+    if (files.isEmpty()) {
+        QMessageBox::critical(this,
+                              "Ошибка",
+                              "Не найдено файлов по указанной маске!");
         return;
     }
 
     // Остановка таймера, если он был запущен
     if (timer->isActive()) {
         timer->stop();
-    }
-
-    // Получаем путь к папке и имя файла из маски
-    QFileInfo maskInfo(inputMask);
-    // Получаем список файлов
-    QDir directory(maskInfo.absolutePath());
-
-    // Получаем список файлов с полными путями
-    QStringList files;
-    const QStringList nameFilters = QStringList() << maskInfo.fileName();
-    const QFileInfoList fileInfoList = directory.entryInfoList(nameFilters, QDir::Files);
-
-    // Заполняем список полными путями к файлам
-    for (const QFileInfo& fileInfo : fileInfoList) {
-        files.append(fileInfo.absoluteFilePath());
     }
 
     // Разделяем файлы на четные и нечетные
@@ -109,8 +106,44 @@ void MainWindow::onStartButtonClicked() {
     }
 }
 
+// Функция для получения списка файлов по маске с рекурсивным поиском
+QStringList MainWindow::getFilesByMask(const QString& mask) {
+    QStringList files;
+    QFileInfo maskInfo(mask);
+
+    // Если маска содержит конкретное имя файла (например, "text.txt")
+    if (!mask.contains('*') && !mask.contains('?')) {
+        QDirIterator it(maskInfo.path(),
+                        QStringList() << maskInfo.fileName(),
+                        QDir::Files,
+                        QDirIterator::Subdirectories);
+        while (it.hasNext()) {
+            files.append(it.next());
+        }
+    }
+    // Если маска содержит wildcards (например, "*.txt")
+    else {
+        QString path = maskInfo.path();
+        if (path == ".") path = QDir::currentPath();
+
+        QString fileNameMask = maskInfo.fileName();
+        if (fileNameMask.isEmpty()) fileNameMask = "*";
+
+        QDirIterator it(path,
+                        QStringList() << fileNameMask,
+                        QDir::Files,
+                        QDirIterator::Subdirectories);
+        while (it.hasNext()) {
+            files.append(it.next());
+        }
+    }
+
+    return files;
+}
+
 void MainWindow::onTimerTimeout() {
     // Получаем параметры из интерфейса
+    ui->progressBar->setValue(0);
     QString inputMask = ui->inputMaskEdit->text(); // Маска файлов
     QString outputPath = ui->outputPathEdit->text(); // Путь для сохранения
     bool deleteOriginals = ui->deleteSwitch->isChecked(); // Удалять исходные файлы

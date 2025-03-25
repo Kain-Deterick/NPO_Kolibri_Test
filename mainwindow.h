@@ -5,6 +5,7 @@
 #include <QMainWindow>
 #include <QTimer>
 #include "FileProcessor.h"
+#include <QDirIterator>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,6 +17,7 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    QStringList getFilesByMask(const QString& mask);
     ~MainWindow();
 
 private slots:

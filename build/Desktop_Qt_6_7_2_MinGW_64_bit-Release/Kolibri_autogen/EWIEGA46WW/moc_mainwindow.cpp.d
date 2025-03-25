@@ -1,6 +1,7 @@
 D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Kolibri_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/Work/Stajrovka/Kolibri/Kolibri/mainwindow.h \
   D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Kolibri_autogen/moc_predefs.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/QDir \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/QDirIterator \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/QFile \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/QMutex \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/QObject \
@@ -43,6 +44,7 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qdir.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qdiriterator.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -165,7 +167,11 @@ D:/Work/Stajrovka/Kolibri/Kolibri/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Ko
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Prilogenia/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
